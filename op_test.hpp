@@ -12,7 +12,7 @@ TEST(OpTest, OpEvaluateNonZero) {
 
 TEST(OpTest, OpStringNonZero) {
     Op* test = new Op(8);
-    EXPECT_EQ("8.000000", 8);
+    EXPECT_EQ("8.000000", test->stringify());
 }
 
 TEST(OpTest, OpEvaluateNegative) {
