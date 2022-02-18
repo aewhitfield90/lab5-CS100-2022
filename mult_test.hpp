@@ -15,7 +15,6 @@ TEST(MultTest, MultiplyTwoOperators) {
     delete five, seven, test;
 }
 
-
 TEST(MultTest, MultiplyOperatorZero) {
     Op* zero = new Op(0);
     Op* seven = new Op(7);
