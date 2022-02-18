@@ -9,7 +9,7 @@ ADD_EXECUTABLE(test
     unit_test.cpp
 )
 
-ADD_EXECUTABLE(testONpersonal 
+ADD_EXECUTABLE(lab 
     main.cpp
 )
 
