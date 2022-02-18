@@ -8,7 +8,7 @@ private:
     double val = 0;
 
 public:
-    Op(double value) : Base() {
+    Rand() : Base() {
         val = rand() % 100;
     }
     virtual double evaluate() { return val; }
