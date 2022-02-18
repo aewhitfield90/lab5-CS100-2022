@@ -26,7 +26,7 @@ TEST(MultTest, MultiplyOperatorZero) {
 TEST(MultTest, MultiplyOperatorOperand) {
     Op* five = new Op(5);
     Op* seven = new Op(7);
-    Add* sum = new Add(five, seven)
+    Add* sum = new Add(five, seven);
     EXPECT_EQ(sum->evaluate(), 12);
     Mult* test = new Mult(five, sum);
     EXPECT_EQ(test->evaluate(), 60);
