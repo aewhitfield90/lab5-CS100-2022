@@ -13,7 +13,7 @@ TEST(MultTest, MultiplyTwoOperators) {
     delete five, seven, test;
 }
 
-TEST(MultTest, MultiplyTwoOperators) {
+TEST(MultTest, MultiplyOperatorZero) {
     Base* zero = new Op(0);
     Base* seven = new Op(7);
     Base* test = new Mult(zero, seven);
