@@ -28,7 +28,7 @@ TEST(DivTest, DivideOperatorOperand) {
     Op* eight = new Op(8);
     Add* sum = new Add(four, eight);
     EXPECT_EQ(sum->evaluate(), 12);
-    Div* test = new Div(sum, 4);
+    Div* test = new Div(sum, four);
     EXPECT_EQ(test->evaluate(), 3);
     delete four, eight, sum, test;
 }
