@@ -22,5 +22,8 @@ int main() {
     Base* minus = new Sub(add, two);
 
     std::cout << div->stringify() << " = " << div->evaluate() << std::endl;
+    std::cout << mult->stringify() << " = " << mult->evaluate() << std::endl;
+    std::cout << add->stringify() << " = " << add->evaluate() << std::endl;
+    std::cout << minus->stringify() << " = " << minus->evaluate() << std::endl;
     return 0;
 }
