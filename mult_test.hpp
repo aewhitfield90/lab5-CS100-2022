@@ -32,4 +32,4 @@ TEST(MultTest, MultiplyOperatorOperand) {
     delete five, seven, sum, test;
 }
 
-#endif //__OP_TEST_HPP__
+#endif //__MULT_TEST_HPP__
