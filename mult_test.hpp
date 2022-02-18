@@ -8,9 +8,9 @@
 #include "add.hpp"
 
 TEST(MultTest, MultiplyTwoOperators) {
-    Op* five = new Op(5);
-    Op* seven = new Op(7);
-    Mult* test = new Mult(five, seven);
+    Base* five = new Op(5);
+    Base* seven = new Op(7);
+    Base* test = new Mult(five, seven);
     EXPECT_EQ(test->evaluate(), 35);
 }
 
