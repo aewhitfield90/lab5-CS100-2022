@@ -5,6 +5,7 @@
 
 #include "mult.hpp"
 #include "add.hpp"
+#include "op.hpp"
 
 TEST(MultTest, MultiplyTwoOperators) {
     Op* five = new Op(5);
