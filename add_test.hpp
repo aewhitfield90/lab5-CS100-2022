@@ -10,7 +10,7 @@ TEST(AddTest, AddPosPos) {
     Op* nine = new Op(9);
     Op* ten = new Op(10);
     Add* test = new Add(nine, ten);
-    EXPECT_EQ(test->evaluate(), 18);
+    EXPECT_EQ(test->evaluate(), 19);
     delete nine, ten, test;
 }
 
@@ -18,7 +18,7 @@ TEST(AddTest, AddPosNeg) {
     Op* two = new Op(2);
     Op* neg_seven = new Op(-7);
     Add* test = new Add(two, neg_seven);
-    EXPECT_EQ(test->evaluate(), 5);
+    EXPECT_EQ(test->evaluate(), -5);
     delete two, neg_seven, test;
 }
 
@@ -36,7 +36,7 @@ TEST(AddTest, AddOperatorOperand) {
     Add* sum = new Add(five, seven);
     EXPECT_EQ(sum->evaluate(), 12);
     Add* test = new Add(five, sum);
-    EXPECT_EQ(test->evaluate(), 18);
+    EXPECT_EQ(test->evaluate(), 17);
     delete five, seven, sum, test;
 }
 
