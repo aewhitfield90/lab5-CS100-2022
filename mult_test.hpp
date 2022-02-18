@@ -30,4 +30,4 @@ TEST(MultTest, MultiplyOperatorOperand) {
     EXPECT_EQ(test->evaluate(), 60);
 }
 
-#endif //__OP_TEST_HPP__
+#endif //__MULT_TEST_HPP__
